@@ -35,12 +35,12 @@
 @property (weak, nonatomic) IBOutlet UILabel *plotsNumLabel;
 //@property (weak, nonatomic) IBOutlet UIView *MiniGraphView;
 //
-//-(void) compareLines;
-//-(void) loadMainGraph;
-//-(void) loadSmallGraph;
+-(void) compareLines;
+-(void) loadMainGraph;
+-(void) loadSmallGraph;
 
 - (IBAction)sliderListener:(id)sender;
-// Adding a comment
+
 @end
 
 @implementation FirstViewController
@@ -359,7 +359,6 @@ CPTScatterPlot* plot2;
             string =@"Go to Get Data and start recording your speed or go to Select New Graph and make a new graph ";
             break;
         }
-
         case 1:
         {
             title = @"Results";
@@ -390,7 +389,6 @@ CPTScatterPlot* plot2;
             string =@"You could probably do better ";
             break;
         }
-            
         case 6:
         {
             title = @"Results";
@@ -415,7 +413,6 @@ CPTScatterPlot* plot2;
                                                   delegate: self
                                          cancelButtonTitle:@"OK"
                                          otherButtonTitles:nil];
-    
     [alert setTag:1];
     [alert show];
     title = @"Results";
