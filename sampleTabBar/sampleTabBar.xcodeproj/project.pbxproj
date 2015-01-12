@@ -352,8 +352,6 @@
 		8A84DBF31A5773ED005212EA /* sampleTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A84DBF81A5773ED005212EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A84DBF91A5773ED005212EA /* sampleTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleTabBarTests.m; sourceTree = "<group>"; };
-		8A84DC031A577835005212EA /* ResultGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultGraph.m; sourceTree = "<group>"; };
-		8A84DC041A577877005212EA /* ResultGaph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultGaph.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		8A84DC051A577C9B005212EA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8A84DC071A577CA2005212EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8A84DC091A577CAF005212EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -808,8 +806,6 @@
 				8A84DBE21A5773ED005212EA /* FirstViewController.m */,
 				8A84DBE41A5773ED005212EA /* SecondViewController.h */,
 				8A84DBE51A5773ED005212EA /* SecondViewController.m */,
-				8A84DC041A577877005212EA /* ResultGaph.h */,
-				8A84DC031A577835005212EA /* ResultGraph.m */,
 				8A84DBE71A5773ED005212EA /* Main.storyboard */,
 				8A84DBEA1A5773ED005212EA /* Images.xcassets */,
 				8A84DBEC1A5773ED005212EA /* LaunchScreen.xib */,
